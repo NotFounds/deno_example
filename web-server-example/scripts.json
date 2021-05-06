@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "serve": {
+      "desc": "Run up server",
+      "cmd": "deno run --allow-net --importmap import_map.json app.ts"
+    },
+    "serve-dev": {
+      "desc": "Run serve and watch files",
+      "cmd": "deno run --watch --allow-all --unstable --importmap import_map.json app.ts"
+    },
+    "test": {
+      "desc": "Run tests",
+      "cmd": "deno test --allow-env"
+    },
+    "check": {
+      "desc": "Run fmt and lint",
+      "cmd": [
+        "deno fmt --check",
+        "deno lint --unstable"
+      ]
+    }
+  }
+}

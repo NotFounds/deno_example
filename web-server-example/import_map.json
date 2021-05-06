@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "std/datetime": "https://deno.land/std@0.95.0/datetime/mod.ts",
+    "std/fmt/colors": "https://deno.land/std@0.95.0/fmt/colors.ts",
+    "std/uuid": "https://deno.land/std@0.95.0/uuid/mod.ts",
+    "oak": "https://deno.land/x/oak@v7.3.0/mod.ts"
+  },
+  "scopes": {}
+}
